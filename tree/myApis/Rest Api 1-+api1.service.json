@@ -25,9 +25,8 @@
           }
         },
         {
-          "Include": {
-            "policyGuid": "a9f7163b-d17a-42e8-9b75-855ca6f67c08",
-            "policyName": "Generic API Template"
+          "HardcodedResponse": {
+            "body": "This is a hard coded response after changing the policy. The value of service_specific_var is ${service_specific_var}."
           }
         }
       ]
