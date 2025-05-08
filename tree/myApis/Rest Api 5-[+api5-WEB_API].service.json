@@ -1,16 +1,17 @@
 {
-  "goid": "84449671abe2a5b143051dbdfdf7e685",
-  "guid": "f516508a-c166-4c09-8134-1b6bd3615868",
-  "name": "Rest Api 1",
-  "resolutionPath": "/api1",
+  "goid": "4b17ec171df85cf1dd2709827bf7f193",
+  "guid": "73bffeb3-067b-4857-b05d-3a978dd7524b",
+  "name": "Rest Api 5",
+  "resolutionPath": "/api5",
   "serviceType": "WEB_API",
-  "checksum": "cef71354d1ec51ecdb157a761e0e8df6cd489b5d",
+  "checksum": "dce28172d84523caf8583025eef43534b0df6636",
   "enabled": true,
-  "folderPath": "/myApis",
+  "folderPath": "/",
   "methodsAllowed": [
     "GET",
     "POST",
-    "PUT"
+    "PUT",
+    "DELETE"
   ],
   "tracingEnabled": false,
   "wssProcessingEnabled": false,
@@ -20,7 +21,7 @@
       "All": [
         {
           "SetVariable": {
-            "expression": "hello api 1",
+            "expression": "hello api 5",
             "variable": "service_specific_var"
           }
         },
